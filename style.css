@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.header {
+    background-color: #0821af;
+    color: white;
+}
+
+.headerText {
+    padding: 30px;
+}
+
+.headerText h1 {
+    color: white;
+    margin-bottom: 10px;
+}
+.headerText p {
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.containers {
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px 0px 0px;
+}
+
+.containers h2 {
+    color: #0821af;
+    margin-bottom: 40px;
+}
+
+#listaAlunos div{
+    margin-bottom: 20px;
+}
+
+#listaProfessores div{
+    margin-bottom: 20px;
+}
+
+#listaAlunos div p, #listaProfessores div p {
+    color: #333333d5;
+    font-size: 12px;
+}
+
+#listaAlunos div h3, #listaProfessores div h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
